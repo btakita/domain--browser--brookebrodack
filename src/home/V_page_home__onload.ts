@@ -13,8 +13,8 @@ export function V_page_home__onload(V_page_home:HTMLDivElement) {
 			[
 				V_page_home.querySelector('h1')!,
 				{
-					x: ['-100vw', 5, 0],
-					y: ['-100vh', -90, -100],
+					x: ['-50vw', 5, 0],
+					y: ['-50vh', -90, -100],
 					rotate: [-45, 10, 0],
 					opacity: [.2, .5, 1]
 				},
@@ -36,8 +36,8 @@ export function V_page_home__onload(V_page_home:HTMLDivElement) {
 			[
 				V_page_home.querySelector('h2')!,
 				{
-					x: ['100vw', -5, 0],
-					y: ['-100vh', -90, -100],
+					x: ['50vw', -5, 0],
+					y: ['-50vh', -90, -100],
 					rotate: [45, -10, 0],
 					opacity: [.2, .5, 1]
 				},
