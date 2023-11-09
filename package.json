@@ -5,8 +5,8 @@
   "type": "module",
   "dependencies": {
     "@btakita/domain--all--blog": "workspace:*",
-    "@ctx-core/object": "^29.0.0",
-    "@ctx-core/vanjs": "^2.1.2",
+    "@ctx-core/object": "^29.1.0",
+    "@ctx-core/vanjs": "^2.1.4",
     "motion": "^10.16.4",
     "vanjs-core": "^1.2.6"
   },
@@ -14,6 +14,6 @@
     "bun-types": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.2.2"
   }
 }
