@@ -7,7 +7,7 @@
     "@btakita/domain--all--blog": "workspace:*",
     "ctx-core": "^4.8.1",
     "motion": "^10.16.4",
-    "relementjs": "^0.15.2"
+    "relementjs": "^0.16.0"
   },
   "devDependencies": {
     "bun-types": "latest"
