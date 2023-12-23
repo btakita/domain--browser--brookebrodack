@@ -1,13 +1,14 @@
 {
 	"name": "@btakita/domain--browser--brookebrodack",
+	"type": "module",
+	"version": "0.0.0",
 	"module": "src/index.ts",
 	"types": "src/index.ts",
-	"type": "module",
 	"dependencies": {
 		"@btakita/domain--any--blog": "workspace:*",
 		"ctx-core": "^5.4.1",
 		"motion": "^10.16.4",
-		"relementjs": "^0.31.11"
+		"relementjs": "^0.33.0"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
