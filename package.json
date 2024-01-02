@@ -6,9 +6,9 @@
 	"types": "src/index.ts",
 	"dependencies": {
 		"@btakita/domain--any--blog": "workspace:*",
-		"ctx-core": "^5.9.0",
+		"ctx-core": "^5.10.0",
 		"motion": "^10.16.4",
-		"relementjs": "^0.38.1"
+		"relementjs": "^0.39.0"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
