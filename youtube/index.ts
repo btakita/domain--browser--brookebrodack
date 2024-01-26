@@ -96,7 +96,7 @@ export type YT_Player_config_T = {
 	width?:number|string
 }
 export type YT_PlayerState_val_T = -1|0|1|2|3|5
-declare class YT_Player {
+export declare class YT_Player {
 	constructor(selector:string|Element, config:YT_Player_config_T)
 	addEventListener:(event:string, listener:(val:unknown)=>unknown)=>void
 	destroy:()=>void
@@ -109,24 +109,14 @@ declare class YT_Player {
 	getOptions:()=>unknown
 	setOption:()=>void
 	setOptions:()=>void
-	cuePlaylist:(
-		playlist:string|readonly string[],
-		index?:number,
-		startSeconds?:number,
-		suggestedQuality?:string
-	)=>(params:{
+	cuePlaylist:(params:{
 		listType:string
 		list?:string
 		index?:number
 		startSeconds?:number
 		suggestedQuality?:string
 	})=>void
-	loadPlaylist:(
-		playlist:string|readonly string[],
-		index?:number,
-		startSeconds?:number,
-		suggestedQuality?:string
-	)=>(params:{
+	loadPlaylist:(params:{
 		listType:string
 		list?:string
 		index?:number
@@ -142,41 +132,25 @@ declare class YT_Player {
 	getVideoLoadedFraction:()=>number
 	getVideoUrl:()=>string
 	getVolume:()=>number
-	cueVideoById:(
-		videoId:string,
-		startSeconds?:number,
-		suggestedQuality?:string
-	)=>(params:{
+	cueVideoById:(params:{
 		videoId:string
 		startSeconds?:number
 		endSeconds?:number
 		suggestedQuality?:string
 	})=>void
-	cueVideoByUrl:(
-		mediaContentUrl:string,
-		startSeconds?:number,
-		suggestedQuality?:string
-	)=>(params:{
+	cueVideoByUrl:(params:{
 		mediaContentUrl:string
 		startSeconds?:number
 		endSeconds?:number
 		suggestedQuality?:string
 	})=>void
-	loadVideoByUrl:(
-		mediaContentUrl:string,
-		startSeconds?:number,
-		suggestedQuality?:string
-	)=>(params:{
+	loadVideoByUrl:(params:{
 		mediaContentUrl:string
 		startSeconds?:number
 		endSeconds?:number
 		suggestedQuality?:string
 	})=>void
-	loadVideoById:(
-		videoId:string,
-		startSeconds?:number,
-		suggestedQuality?:string
-	)=>(params:{
+	loadVideoById:(params:{
 		videoId:string
 		startSeconds?:number
 		endSeconds?:number
