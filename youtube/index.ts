@@ -169,7 +169,7 @@ export declare class YT_Player {
 	setPlaybackQuality:(suggestedQuality:string)=>void
 	setPlaybackRate:(suggestedRate:number)=>void
 	setShuffle:(shufflePlaylist:boolean)=>void
-	setSize:(width:number, height:number)=>object
+	setSize:(width:number|string, height:number|string)=>object
 	setVolume:(volume:number)=>void
 	stopVideo:()=>void
 	unMute:()=>void
