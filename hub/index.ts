@@ -1,4 +1,4 @@
-import { be_, type be__val__new_T, type be_config_arg_a_T, type be_config_T, type Ctx_wide_T } from 'ctx-core/be'
+import { be_, type be_config_arg_a_T, type Ctx_wide_T } from 'ctx-core/be'
 // See https://github.com/gajus/sister/blob/master/src/sister.js
 export function hub__new<D>() {
 	const ref_a:WeakRef<(data:D)=>unknown>[] = []
