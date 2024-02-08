@@ -7,6 +7,14 @@
 		".": "./index.ts",
 		"./package.json": "./package.json"
 	},
+	"files": [
+		"*.d.ts",
+		"*.js",
+		"*.json",
+		"ctx",
+		"hub",
+		"youtube"
+	],
 	"dependencies": {
 		"@rappstack/domain--any--blog": "workspace:*",
 		"ctx-core": "^5.38.1",
