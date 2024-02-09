@@ -5,6 +5,8 @@
 	"types": "index.ts",
 	"exports": {
 		".": "./index.ts",
+		"./hub": "./hub/index.ts",
+		"./youtube": "./youtube/index.ts",
 		"./package.json": "./package.json"
 	},
 	"files": [
