@@ -1,4 +1,4 @@
-import { be_, type be_config_arg_a_T, type Ctx_wide_T } from 'ctx-core/be'
+import { be_, type be_config_arg_a_T, type wide_ctx_T } from 'ctx-core/be'
 // See https://github.com/gajus/sister/blob/master/src/sister.js
 export function hub__new<D>() {
 	const ref_a:WeakRef<(data:D)=>unknown>[] = []
@@ -32,7 +32,7 @@ export function hub__new<D>() {
 export function be_hub_triple_<
 	D,
 	ns_T extends string = '',
-	ctx_T extends Ctx_wide_T<ns_T> = Ctx_wide_T<ns_T>
+	ctx_T extends wide_ctx_T<ns_T> = wide_ctx_T<ns_T>
 >(...config_arg_a:be_config_arg_a_T<ns_T>) {
 	const hub_ = be_<hub_T<D>, ns_T, ctx_T>(
 		()=>hub__new<D>(),
