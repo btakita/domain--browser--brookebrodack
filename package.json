@@ -19,7 +19,7 @@
 	"dependencies": {
 		"@rappstack/domain--browser": "workspace:*",
 		"ctx-core": "^6.1.2",
-		"relementjs": "^0.70.1"
+		"relementjs": "^0.71.9"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
