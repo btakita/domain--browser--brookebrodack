@@ -1,4 +1,7 @@
-// See https://github.com/gajus/youtube-player/blob/main/src/types.js
+/** @see {https://developers.google.com/youtube/iframe_api_reference} */
+/** @see {https://github.com/gajus/youtube-player/blob/main/src/types.js} */
+/** @see {https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/youtube-player/dist/types.d.ts} */
+/** @see {https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/youtube/index.d.ts} */
 import { id_be_memo_pair_ } from 'ctx-core/rmemo'
 export const [
 	YT$_,
