@@ -4,7 +4,7 @@
 /** @see {https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/youtube/index.d.ts} */
 import { id_be_memo_pair_ } from 'ctx-core/rmemo'
 export const [
-	YT$_,
+	,
 	YT_
 ] = id_be_memo_pair_<YT_T|undefined>(
 	'YT',
