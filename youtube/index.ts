@@ -11,7 +11,7 @@ export const [
 	(ctx, YT$)=>{
 		if (window.YT) return window.YT
 		window.onYouTubeIframeAPIReady = ()=>{
-			YT$._ = window.YT
+			YT$.set(window.YT)
 		}
 		// const script = script_<'browser'>({
 		// 	src: 'https://www.youtube.com/iframe_api'
