@@ -18,13 +18,13 @@
 	],
 	"dependencies": {
 		"@rappstack/domain--browser": "workspace:*",
-		"ctx-core": "^7.1.4",
-		"relementjs": "^0.79.4"
+		"ctx-core": "^7.1.5",
+		"relementjs": "^0.79.5"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
 	},
 	"peerDependencies": {
-		"typescript": "^5.4.4"
+		"typescript": "^5.4.5"
 	}
 }
