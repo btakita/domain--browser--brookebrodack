@@ -17,7 +17,7 @@
 		"youtube"
 	],
 	"dependencies": {
-		"@rappstack/domain--browser": "workspace:*",
+		"@rappstack/domain--browser": "^0.1.0",
 		"ctx-core": "^7.2.27",
 		"relementjs": "^0.80.26"
 	},
